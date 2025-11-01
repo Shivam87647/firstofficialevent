@@ -2,5 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+body {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a0808 30%, #2d1414 50%, #1a0808 70%, #0a0a0a 100%);
+  min-height: 100vh;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+header{
+    width: 100%;
+    border: 1px solid red;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1{
+    height: 662px;
+    width: 1440px;
+    border: 1px solid blanchedalmond;
+}
+.sec1p1{
+border: 1px solid red;
+width: 50%;
+}
+.sec1p2{
+width: 50%;
+}
+
+    
