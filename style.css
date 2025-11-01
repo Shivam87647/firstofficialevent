@@ -2,5 +2,90 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
+.blogpostsdivsec2{
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 10px;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5)), url(blogposts1.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+}
+.blogpostsdivsec3{
+    width: 600px;
+    height: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 10px;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5)), url(blogposts2.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+}
+.FAQdiv{
+    margin: auto;
+    width: 1440px;
+    height: 520px;
+    box-shadow: ;
+    background: rgba(0, 0, 0, 0.25);
+    background: black;  
+    padding-right: 98px;
+    padding-left: 98px; 
+}
+.FAQheadingdiv{
+    width: 1244px;
+    height: 70px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    /* border: white 1px solid; */
+}
+.questionholderdiv{
+    width: 1244px;
+    /* height: 494px; */
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+.questionsdiv{
+    width: 1244px;
+    height: 64px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    color: white;
+    font-size: 17px;
+    padding: 19px 24px;
+}
+.footerdiv{
+    width: 1440px;
+    background: black;
+    padding: 60px 98px;
+    margin: auto;
+    display: flex;
+}
+.footerdivsection1{
+    width: 515px;
+    height: 190px;
+}
+.footersection2sub{
+    width: 169px;
+    /* height: 300px; */
+    text-align: center;
+}
+.footersection2sub ul li{
+    color: white;
+    font-size: 10px;
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 2;
 }
