@@ -36,15 +36,15 @@
     width: 1440px;
     height: 520px;
     /* box-shadow: ; */
-    background: rgba(0, 0, 0, 0.25);
-    background: black;  
+    /* background: rgba(0, 0, 0, 0.25); */
+    /* background: black;   */
     padding-right: 98px;
     padding-left: 98px; 
 }
 .FAQheadingdiv{
     width: 1244px;
     height: 70px;
-    background: black;
+    /* background: black; */
     color: white;
     text-align: center;
     font-size: 30px;
@@ -70,7 +70,7 @@
 }
 .footerdiv{
     width: 1440px;
-    background: black;
+    /* background: black; */
     padding: 60px 98px;
     margin: auto;
     display: flex;
